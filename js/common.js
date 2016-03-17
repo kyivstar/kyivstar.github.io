@@ -1,5 +1,12 @@
 $(function() {
 	
+	$('.main-mnu ul a').bind("click", function(e){
+      var anchor = $(this);
+      $('html, body').stop().animate({
+         scrollTop: $(anchor.attr('href')).offset().top
+      }, 1000);
+      e.preventDefault();
+   });
 
 	$(".popup-modal").magnificPopup();
 
@@ -7,6 +14,13 @@ $(function() {
 	  $(this).toggleClass("on");
 	  $(".main-mnu").slideToggle();
 	  return false;
+
+	});
+		$(window).resize(function(){
+		var wid = $(window).width();
+		if(wid > 991 && $(".main-mnu").is(':hidden')){
+			$(".main-mnu").removeAttr('style');
+		}
 	});
 
 	//SPEED ICONS
