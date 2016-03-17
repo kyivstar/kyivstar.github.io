@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="18.062222mm"
+   height="15.522223mm"
+   viewBox="0 0 63.999998 55.000001"
+   id="svg7597"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="basic_headset.svg">
+  <defs
+     id="defs7599" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="144.14285"
+     inkscape:cy="281.78576"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7602">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-230.85715,-759.14796)">
+    <g
+       id="g7620"
+       transform="translate(230.85715,754.14796)"
+       style="stroke:#ffffff;stroke-opacity:1">
+      <path
+         id="path7606"
+         d="M 11,48 C 5.477,48 1,43.523 1,38 1,32.477 5.477,28 11,28 l 2,0 0,20 -2,0 z"
+         stroke-miterlimit="10"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ffffff;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1" />
+      <path
+         id="path7608"
+         d="m 53,28 c 5.523,0 10,4.477 10,10 0,5.523 -4.477,10 -10,10 l -2,0 0,-20 2,0 z"
+         stroke-miterlimit="10"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ffffff;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1" />
+      <path
+         id="path7610"
+         d="m 13,31 0,-9 C 13,22 13,6 32,6 51,6 51,22 51,22 l 0,6"
+         stroke-miterlimit="10"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#ffffff;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1" />
+      <polyline
+         id="polyline7612"
+         points="51,48 51,53 36,59 28,59 28,55 36,55   36,58 "
+         stroke-miterlimit="10"
+         style="fill:none;stroke:#ffffff;stroke-width:2;stroke-miterlimit:10;stroke-opacity:1" />
+    </g>
+  </g>
+</svg>
