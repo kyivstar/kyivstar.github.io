@@ -1,5 +1,11 @@
 $(function() {
 	
+
+	$('.main-mnu a').click(function(){
+		 $(".main-mnu").slideToggle();
+		 $(".toggle-mnu").toggleClass("on");
+	});
+
 	$('.main-mnu ul a').bind("click", function(e){
       var anchor = $(this);
       $('html, body').stop().animate({
