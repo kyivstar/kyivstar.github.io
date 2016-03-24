@@ -1,16 +1,21 @@
 $(function() {
 	
+console.log($(window).width());
 
-	$('.main-mnu a').click(function(){
-		 $(".main-mnu").slideToggle();
-		 $(".toggle-mnu").toggleClass("on");
-	});
 
 	$('.main-mnu ul a').bind("click", function(e){
       var anchor = $(this);
       $('html, body').stop().animate({
          scrollTop: $(anchor.attr('href')).offset().top
       }, 1000);
+       //
+      var wid = $(window).width();
+      if (wid <= 991) {
+      	 $(".main-mnu").slideToggle();
+		 $(".toggle-mnu").toggleClass("on");
+      }
+    
+      //
       e.preventDefault();
    });
 
@@ -24,7 +29,7 @@ $(function() {
 	});
 		$(window).resize(function(){
 		var wid = $(window).width();
-		if(wid > 991 && $(".main-mnu").is(':hidden')){
+		if(wid >= 991 && $(".main-mnu").is(':hidden')){
 			$(".main-mnu").removeAttr('style');
 		}
 	});
