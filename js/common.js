@@ -1,11 +1,11 @@
 $(function() {
 	
 	$(".prices").waypoint(function(){
-		$({blurRadius: 5}).animate({blurRadius: 0}, {
-		duration: 2000,
+		$({blurRadius: 1}).animate({blurRadius: 0}, {
+		duration: 1500,
 		easing: 'swing',
 		step: function() {
-			$(".prices .container-price .speed-item-text p, .prices .container-price .figures span").css({
+			$(".prices .container-price .speed-item-text p").css({
 				"-webkit-filter": "blur("+this.blurRadius+"px)",
 				"filter": "blur("+this.blurRadius+"px)"
 			});
@@ -19,16 +19,9 @@ $(function() {
 			easing: 'easeInQuad',
 			"font-size": "2.5em",
 			numberStep: comma_separator_number_step},
-			2000);
+			1500);
 	});
-	$(".prices .container-price .figures span").each(function() {
-		var tcount = $(this).data("count");
-		$(this).animateNumber({ number: tcount,
-			easing: 'easeInQuad',
-			"font-size": "1.75em",
-			numberStep: comma_separator_number_step},
-			2000);
-	});
+
 	},
 {
 	offset: '85%'
@@ -39,7 +32,7 @@ $(function() {
       var anchor = $(this);
       $('html, body').stop().animate({
          scrollTop: $(anchor.attr('href')).offset().top
-      }, 1000);
+      }, 1500);
        //
       var wid = $(window).width();
       if (wid <= 991) {
@@ -68,15 +61,15 @@ $(function() {
 
 	//SPEED ICONS
 	$(".prices").waypoint(function(){
-	var a = -90;
+	var a = -120;
 	function rot(n, wh){
 	  a++;
 	   if (a > n){ return false;}
 	      $(wh).css("transform","rotate("+a+"deg)");
 	};
-	setInterval(rot,40,'10','#speed2');
-	setInterval(rot,40,'-60','#speed1');
-	setInterval(rot,35,'70','#speed3');
+	setInterval(rot,20,'10','#speed2');
+	setInterval(rot,25,'-60','#speed1');
+	setInterval(rot,20,'70','#speed3');
 	},
 
 	{
