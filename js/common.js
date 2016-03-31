@@ -1,6 +1,15 @@
 $(function() {
 	
 	$(".prices").waypoint(function(){
+			var a = -120;
+	function rot(n, wh){
+	  a++;
+	   if (a > n){ return false;}
+	      $(wh).css("transform","rotate("+a+"deg)");
+	};
+	setInterval(rot,20,'10','#speed2');
+	setInterval(rot,25,'-60','#speed1');
+	setInterval(rot,20,'70','#speed3');
 		$({blurRadius: 1}).animate({blurRadius: 0}, {
 		duration: 1500,
 		easing: 'swing',
@@ -17,15 +26,16 @@ $(function() {
 		var tcount = $(this).data("count");
 		$(this).animateNumber({ number: tcount,
 			easing: 'easeInQuad',
-			"font-size": "2.5em",
+			"font-size": "2.4em",
 			numberStep: comma_separator_number_step},
 			1500);
-	});
-
+	});this.disable();
 	},
 {
 	offset: '85%'
+
 });
+
 
 
 	$('.main-mnu ul a').bind("click", function(e){
@@ -60,21 +70,7 @@ $(function() {
 	});
 
 	//SPEED ICONS
-	$(".prices").waypoint(function(){
-	var a = -120;
-	function rot(n, wh){
-	  a++;
-	   if (a > n){ return false;}
-	      $(wh).css("transform","rotate("+a+"deg)");
-	};
-	setInterval(rot,20,'10','#speed2');
-	setInterval(rot,25,'-60','#speed1');
-	setInterval(rot,20,'70','#speed3');
-	},
-
-	{
-		offset: '40%'
-	});
+	
 
 	
 	//SVG Fallback
